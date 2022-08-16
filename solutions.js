@@ -41,3 +41,26 @@ function addOne(input){
 function isEven(input){
     return input % 2 === 0;
 }
+
+function isIdentical(input, input2){
+    return input === input2;
+}
+
+function isEqual(input, input2) {
+    let b = input == input2;
+    return b;
+}
+
+function or(input, input2){
+    return input || input2;
+}
+
+function and(input, input2){
+    return input && input2;
+}
+
+function concat(input, input2){
+   input = input.toString()
+    input2 = input2.toString()
+        return input + input2;
+}
