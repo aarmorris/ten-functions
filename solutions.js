@@ -26,5 +26,18 @@ function isTrue(input){
 }
 
 function isFalse(input){
-    return true;
+    return input === false
+}
+
+function not(input){
+    return !input
+}
+
+function addOne(input){
+     input = parseFloat(input);// Input is now a number instead of "string"/ parseFloat can handle infinity
+        return input + 1;
+}
+
+function isEven(input){
+    return input % 2 === 0;
 }
